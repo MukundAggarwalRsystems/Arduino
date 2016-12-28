@@ -1,0 +1,22 @@
+mqtt_8266_1
+
+1. Connection of Wifi.
+2. Providing an IP ADDRESS.
+3. Connect to the MQTT Broker
+	Mqtt Broker - Cloudmqtt
+	Host ID - m13.cloudmqtt.com
+	Port - 10945
+	Client ID - 
+
+4. Subscribe to a Topic.
+	Topic - andtest
+
+5. Publish to the Topic.
+	Publish Message - Hello from 8266
+
+6. Read the Message publish for the subscribed topic i.e. 'andtest'.
+7. Toggle the state of the LED according to the serial.read().
+
+
+No parsing of data.
+Need Changes for the Intel Edison Keywords as all the Keywords are for the 8266. 
