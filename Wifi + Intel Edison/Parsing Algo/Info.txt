@@ -1,0 +1,1 @@
+This code is the Parsing Algorithm used by Arduino to parse the Incoming Stream of Data.
